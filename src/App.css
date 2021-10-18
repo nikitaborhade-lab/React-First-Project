@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+body {
+	background: #141414;
+	color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.movie-app > .row {
+	/* overflow-x: auto; */
+	flex-wrap: nowrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .image-container {
+	position: relative;
+	transition: transform 0.2s;
+	width: 15%;
+}
+
+.image-container:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.image-container:hover .overlay {
+	opacity: 1;
+}
+.heading {
+    font-size: 36px;
+	padding-left: 35%;
+	padding-bottom: 20px;
+}
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 1px 0px;
+	grid-auto-flow: row;
+	grid-gap: 10px;
+	padding: 10px;
+	grid-template-areas:
+	  "Image movie-name release-date"
+	  "Image movie-duration movie-duration"
+	  "Image	book-now book-now";
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .container > div {
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .Image {
+	grid-area: Image;
+	height: 120px;
   }
+  
+  .movie-name {
+	grid-area: movie-name;
+	font-size: small;
+  }
+  
+  /* .release-date {
+	grid-area: release-date;	
 }
+
+.movie-duration {
+  grid-area: movie-duration;
+}
+
+.book-now {
+  grid-area: book-now;
+}
+   */
+  

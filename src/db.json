@@ -1,0 +1,76 @@
+
+{
+    "Movies":[
+        {
+            "id": 1,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThp1SkUS-3PjrUmJhPgsIFNej_nVxIceow-w&usqp=CAU",
+            "name": "Frozen-II",
+            "IMDB_rating": 6.7,
+            "Movie_Duration": "1h 32min"
+          },
+          {
+            "id": 2,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQudt5t_EZf55GHHTHhDogYg1HvLhU3-3Y6bQ&usqp=CAU",
+            "name": "Harry Potter",
+            "IMDB_rating": 8.0,
+            "Movie_Duration": "1h 56min"
+          },
+          {
+            "id": 3,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbrPQCTtV1pq_VSCpjxD53QViW1MXNBO0GAg&usqp=CAU",
+            "name": "X-Men",
+            "IMDB_rating": 7.3,
+            "Movie_Duration": "1h 51min"
+          },
+          {
+            "id": 4,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mdH7b2oUNAneHtyIO5F7I6uIJnKSiVm_sQ&usqp=CAU",
+            "name": "Avengers",
+            "IMDB_rating": 8.7,
+            "Movie_Duration": "1h 40min"
+          },
+          {
+            "id": 5,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT7pJ98f9JNgLyQPa9yzTbH2w5jx7tbieJtg&usqp=CAU",
+            "name": "MOANA",
+            "IMDB_rating": 7.6,
+            "Movie_Duration": "1h 25min"
+          },
+          {
+            "id": 6,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwKMiFTy28XvYO09dhpVkHfQr5Mb-erIYTKw&usqp=CAU",
+            "name": "Tangled",
+            "IMDB_rating": 7.5,
+            "Movie_Duration": "1h 55min"
+          },
+          {
+            "id": 7,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWxL99owDEcOgY8VHkOY_ENhKbr2yZsGZ4zQ&usqp=CAU",
+            "name": "Raya",
+            "IMDB_rating": 8.6,
+            "Movie_Duration": "1h 50min"
+          },
+          {
+            "id": 8,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQb3q0RgWilMVe0Em42kxVLS8TKoK7BKIEOg&usqp=CAU",
+            "name": "Encanto",
+            "IMDB_rating": 6.7,
+            "Movie_Duration": "1h 20min"
+          },
+          {
+            "id": 9,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRWFEFi8OVXbrVrAW68m5un0siUw26cUXZ9Q&usqp=CAU",
+            "name": "Luca",
+            "IMDB_rating": 8.9,
+            "Movie_Duration": "1h 45min"
+          },
+          {
+            "id": 10,
+            "Poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn57jIiY6r3Z6U55xvQAMyBYBBHOL310ClJw&usqp=CAU",
+            "name": "Jungle Beat",
+            "IMDB_rating": 7.1,
+            "Movie_Duration": "1h 40min"
+          }
+    ]
+}
+
